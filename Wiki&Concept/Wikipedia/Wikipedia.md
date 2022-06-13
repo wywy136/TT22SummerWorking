@@ -16,8 +16,6 @@ Python based tools parsing sql.gz files: https://en.wikipedia.org/wiki/Wikipedia
 
 Jyputer notebooks about parsing Wikipedia data: https://github.com/WillKoehrsen/wikipedia-data-science/tree/master/notebooks
 
-### Offline Wikipedia readers
-
 ## Structure
 
 A link in Wikipedia is formed by link and real content. Real content could be a redirection page from the original word.
@@ -53,3 +51,6 @@ Process actual text of the article: mwparserfromhell
 - https://mwparserfromhell.readthedocs.io/en/latest/api/mwparserfromhell.html#mwparserfromhell.wikicode.Wikicode
 - `plain_text = wiki.strip_code().strip()` get the plain text of the wikipedia page
 
+## Multilingual
+
+Huggingface Dataset: https://huggingface.co/datasets/wikipedia
